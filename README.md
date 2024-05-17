@@ -35,8 +35,14 @@ concatenate_fastas.concatenate_fastas(folder_output2,output3)
 #4
 Run the following lines in order
 
-``` raxml-ng --msa {output3} --model {modelo} --threads {NUMBEROFTHREADS} --seed 27 --tree pars{{100}},rand{{100}} --force perf_threads ```
+```
+raxml-ng --msa {output3} --model {modelo} --threads {NUMBEROFTHREADS} --seed 27 --tree pars{{100}},rand{{100}} --force perf_threads
+```
 
-``` raxml-ng --bootstrap --msa {output3} --model {modelo} --threads {NUMBEROFTHREADS} --seed 27 --bs-trees autoMRE{{{10000}}} --force perf_threads ```
+```
+raxml-ng --bootstrap --msa {output3} --model {modelo} --threads {NUMBEROFTHREADS} --seed 27 --bs-trees autoMRE{{{10000}}} --force perf_threads
+```
 
-``` raxml-ng --support --tree {output_tree} --bs-trees {output_bs} --threads {NUMBEROFTHREADS} --force perf_threads ```
+```
+raxml-ng --support --tree {output_tree} --bs-trees {output_bs} --threads {NUMBEROFTHREADS} --force perf_threads
+```
