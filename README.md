@@ -46,3 +46,7 @@ raxml-ng --bootstrap --msa {output3} --model {modelo} --threads {NUMBEROFTHREADS
 ```
 raxml-ng --support --tree {output_tree} --bs-trees {output_bs} --threads {NUMBEROFTHREADS} --force perf_threads
 ```
+
+#5 
+Run the last file on FigTree
+<img width="1036" alt="Screenshot 2024-05-17 at 16 34 54" src="https://github.com/StarGazerNex/Phylogeny/assets/98494267/85cab3ee-f56f-452c-90c1-2858afdb995e">
