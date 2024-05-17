@@ -10,13 +10,13 @@
 
 
 ## Procedure
-#1
+### 1
 Download sequences from the GeneBank
 ```
 python download_ASCN.py input_file output1
 ```
 
-#2
+### 2
 1.    Align the sequences
 ```
 mafft --auto output1 > output2
@@ -26,13 +26,13 @@ mafft --auto output1 > output2
 modeltest-ng -i output2 -t ml
 ```
 
-#3
+### 3
 Concatenate
 ```
 concatenate_fastas.concatenate_fastas(folder_output2,output3)
 ```
 
-#4
+### 4
 Run the following lines in order
 
 ```
